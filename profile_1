@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	   	<link href='css/thr3folio_.css' media='screen' rel='stylesheet' type='text/css'>
+	   	<link rel="stylesheet" href="css/candidate.css">
+		<link href="css/structure.css" rel="stylesheet">
+		<link href="css/form.css" rel="stylesheet">
+	  <title>My JObs: Recruiter ID</title>
+	</head>
+
+
+<body>
+<div class="container">
+	<div class="bar"> <img src="img/thr3folio_logo.png" alt="logo"> 
+		 <a href="thr3folio_proj1_img1_mobile.html"> <img src="img/menu_symbol.png" /></a> 
+
+		</div>
+	</div>
+
+<nav>
+	  <ul>
+	  	<li> <img src="img/thr3folio_logo.png" alt="logo"> </li> 
+	  	<li> <a href="index.html">home</a> </li>
+	  	<li> <a href="Myjobs.html">my jobs</a>  </li>
+	  	<li> <a href="candidates.html">candidates</a>  </li>
+	  	<li> <a href="clients.html">clients</a>  </li>
+	  	<li> <a href="jobs.html">jobs</a> </li>
+	  	<li> <a href="about.html">about</a> </li>
+	  	<li> <a href="contact.html">contact</a> </li>
+	  </ul>
+	<form action="#" method="#" class="main-nav-search">
+		<input type="text" name="search" placeholder="Search">
+	</form>
+	</nav>
+
+	<div id="container" class="ltr">
+
+<h1 id="logo">
+<a href="http://wufoo.com" title="Powered by Wufoo">Wufoo</a>
+</h1>
+
+<form id="form73" name="form73" class="wufoo  page" autocomplete="off" enctype="multipart/form-data" method="post" novalidate
+action="">
+
+<header id="header" class="info">
+<h2>Employment Application</h2>
+<div>Infinity Box Inc.</div>
+</header>
+
+<ul>
+
+<li id="foli17" class="notranslate       ">
+<label class="desc" id="title17" for="Field17">
+Which position are you applying for?
+<span id="req_17" class="req">*</span>
+</label>
+<div>
+<select id="Field17" name="Field17" class="field select medium" tabindex="1" > 
+<option value="" selected="selected">
+</option>
+<option value="Interface Designer" >
+Interface Designer
+</option>
+<option value="Software Engineer" >
+Software Engineer
+</option>
+<option value="System Administrator" >
+System Administrator
+</option>
+<option value="Office Manager" >
+Office Manager
+</option>
+</select>
+</div>
+</li>
+<li id="foli19" class="notranslate      ">
+<fieldset>
+<![if !IE | (gte IE 8)]>
+<legend id="title19" class="desc">
+Are you willing to relocate?
+<span id="req_19" class="req">*</span>
+</legend>
+<![endif]>
+<!--[if lt IE 8]>
+<label id="title19" class="desc">
+Are you willing to relocate?
+<span id="req_19" class="req">*</span>
+</label>
+<![endif]-->
+<div>
+<input id="radioDefault_19" name="Field19" type="hidden" value="" />
+<span>
+<input id="Field19_0" name="Field19" type="radio" class="field radio" value="Yes" tabindex="2" checked="checked" required />
+<label class="choice" for="Field19_0" >
+Yes</label>
+</span>
+<span>
+<input id="Field19_1" name="Field19" type="radio" class="field radio" value="No" tabindex="3" required />
+<label class="choice" for="Field19_1" >
+No</label>
+</span>
+</div>
+</fieldset>
+</li><li id="foli20" class="date notranslate      ">
+<label class="desc" id="title20" for="Field20">
+When can you start?
+<span id="req_20" class="req">*</span>
+</label>
+<span>
+<input id="Field20-1" name="Field20-1" type="text" class="field text" value="" size="2" maxlength="2" tabindex="4" required />
+<label for="Field20-1">MM</label>
+</span> 
+<span class="symbol">/</span>
+<span>
+<input id="Field20-2" name="Field20-2" type="text" class="field text" value="" size="2" maxlength="2" tabindex="5" required />
+<label for="Field20-2">DD</label>
+</span>
+<span class="symbol">/</span>
+<span>
+ <input id="Field20" name="Field20" type="text" class="field text" value="" size="4" maxlength="4" tabindex="6" required />
+<label for="Field20">YYYY</label>
+</span>
+<span id="cal20">
+<img id="pick20" class="datepicker" src="images/calendar.png" alt="Pick a date." />
+</span>
+</li>
+<li id="foli14" class="notranslate       ">
+<label class="desc" id="title14" for="Field14">
+Portfolio Web Site
+</label>
+<div>
+<input id="Field14" name="Field14" type="url" class="field text large" value="http://" maxlength="255" tabindex="7" /> 
+</div>
+</li><li id="foli12" class="notranslate altInstruct      "  >
+<label class="desc" id="title12" for="Field12">
+Attach a Copy of Your Resume
+</label>
+<div>
+<input id="Field12" name="Field12" type="file" class="field file" size="12" tabindex="8" />
+</div>
+<p class="instruct" id="instruct12"><small>Word or PDF Documents Only</small></p>
+</li>
+<li id="foli16" class="notranslate      ">
+<label class="desc" id="title16" for="Field16">
+Salary Requirements
+</label>
+<span class="symbol">$</span>
+<span>
+<input id="Field16" name="Field16" type="text" class="field text currency nospin" value="" size="10" tabindex="9" />
+<label for="Field16">Dollars</label>
+</span>
+<span class="symbol radix">.</span>
+<span class="cents">
+<input id="Field16-1" name="Field16-1" type="text" class="field text nospin" value="" size="2" maxlength="2" tabindex="10" />
+<label for="Field16-1">Cents</label>
+</span>
+</li><li id="foli22" class="notranslate      ">
+<label class="desc" id="title22" for="Field22">
+Name
+<span id="req_22" class="req">*</span>
+</label>
+<span>
+<input id="Field22" name="Field22" type="text" class="field text fn" value="" size="8" tabindex="11" required />
+<label for="Field22">First</label>
+</span>
+<span>
+<input id="Field23" name="Field23" type="text" class="field text ln" value="" size="14" tabindex="12" required />
+<label for="Field23">Last</label>
+</span>
+</li>
+<li id="foli13" class="notranslate      ">
+<label class="desc" id="title13" for="Field13">
+Email Address
+<span id="req_13" class="req">*</span>
+</label>
+<div>
+<input id="Field13" name="Field13" type="email" spellcheck="false" class="field text large" value="" maxlength="255" tabindex="13" required /> 
+</div>
+</li>
+<li id="foli25" class="phone notranslate      ">
+<label class="desc" id="title25" for="Field25">
+Phone
+<span id="req_25" class="req">*</span>
+</label>
+<span>
+<input id="Field25" name="Field25" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="14" required />
+<label for="Field25">###</label>
+</span>
+<span class="symbol">-</span>
+<span>
+<input id="Field25-1" name="Field25-1" type="tel" class="field text" value="" size="3" maxlength="3" tabindex="15" required />
+<label for="Field25-1">###</label>
+</span>
+<span class="symbol">-</span>
+<span>
+ <input id="Field25-2" name="Field25-2" type="tel" class="field text" value="" size="4" maxlength="4" tabindex="16" required />
+<label for="Field25-2">####</label>
+</span>
+</li> <li class="buttons ">
+<div>
+
+                    <input id="saveForm" name="saveForm" class="btTxt submit" 
+    type="submit" value="Submit"
+ /></div>
+</li>
+
+</ul>
+</form> 
+
+</div><!--container-->

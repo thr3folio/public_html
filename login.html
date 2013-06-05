@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyJobs: Clients</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href='css/thr3folio_.css' media='screen' rel='stylesheet' type='text/css'>
+	 <link rel="stylesheet" href="css/candidate.css">
+	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='css/responsive_menu.css' media='screen' rel='stylesheet' type='text/css'>	
+</head>
+
+<body>
+
+<nav id="menu-wrap">  
+
+	<ul id="menu">
+		<li class="nav_logo"><img src="img/thr3folio_logo.png" alt="logo"> </li>
+		<li><a href="index.html">home</a></li>
+		<li><a href="mydaily_html">my daily</a></li>
+		<li><a href="myjobs_html.html">my jobs</a></li>
+		<li><a href="candidates.html">candidates</a></li>
+		<li><a href="clients.html">clients</a></li>
+		<li><a href="jobs.html">jobs</a></li>
+		<li><a href="about.html">about</a></li>
+		<li><a  href="contact.html">contacts</a></li>
+		<li><a  href="login.html">login</a></li>
+	<ul>
+				
+</nav>	
+<div class="list-container">
+
+	<div class='form-wrapper'>
+		<form accept-charset="UTF-8" action="/users" class="reg-form" id="reg_form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="10MnTqSH0UzrWPBgMbkyf2x1jLsZmeWyveMJG0kK7u0=" /></div><fieldset>
+			<div class='text-group'>
+				<select class="req" id="user_type" name="user[type]"><option value="nil">I am a...</option>
+				<option value="Candidate">Candidate</option>
+				<option value="Recruiter">Recruiter</option>
+				<option value="Hiring_Manager">Hiring Manager</option></select>
+				<input class="req" id="user_email" name="user[email]" placeholder="Email" size="30" type="text" />
+				<input class="req" id="user_password" name="user[password]" placeholder="Password" size="30" type="password" />
+			</div>
+		<div>
+		<input class="submit" name="commit" type="submit" value="Sign Up" />
+		</div>
+		</fieldset>
+		</form>
+	</div>
+</div>	
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+		if ($.browser.msie && $.browser.version.substr(0,1)<7)
+		{
+		$('li').has('ul').mouseover(function(){
+			$(this).children('ul').css('visibility','visible');
+			}).mouseout(function(){
+			$(this).children('ul').css('visibility','hidden');
+			})
+		}
+
+		/* Mobile */
+		$('#menu-wrap').prepend('<div id="menu-trigger"><img src="img/thr3folio_logo.png" alt="logo"></div>');		
+		$("#menu-trigger").on("click", function(){
+			$("#menu").slideToggle();
+		});
+
+		// iPad
+		var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		if (isiPad) $('#menu ul').addClass('no-transition');      
+    });          
+</script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MyJobs: Clients</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href='css/thr3folio_.css' media='screen' rel='stylesheet' type='text/css'>
+	 <link rel="stylesheet" href="css/candidate.css">
+	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='css/responsive_menu.css' media='screen' rel='stylesheet' type='text/css'>	
+</head>
+
+<body>
+
+<nav id="menu-wrap">  
+
+	<ul id="menu">
+		<li class="nav_logo"><img src="img/thr3folio_logo.png" alt="logo"> </li>
+		<li><a href="index.html">home</a></li>
+		<li><a href="mydaily_html">my daily</a></li>
+		<li><a href="myjobs_html.html">my jobs</a></li>
+		<li><a href="candidates.html">candidates</a></li>
+		<li><a href="clients.html">clients</a></li>
+		<li><a href="jobs.html">jobs</a></li>
+		<li><a href="about.html">about</a></li>
+		<li><a  href="contact.html">contacts</a></li>
+		<li><a  href="login.html">login</a></li>
+	<ul>
+				
+</nav>
+
+    
+
+<div class="list-container">
+		
+    <div class="container">
+    <div class="content">
+      <div class="row">
+        
+          <h3>1871 Merchandise Mart</h3>
+          <p>thr3folio.gmail</p>
+          
+        </div>
+      </div>
+    </div>
+  </div> <!-- /container -->
+   </div>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+		if ($.browser.msie && $.browser.version.substr(0,1)<7)
+		{
+		$('li').has('ul').mouseover(function(){
+			$(this).children('ul').css('visibility','visible');
+			}).mouseout(function(){
+			$(this).children('ul').css('visibility','hidden');
+			})
+		}
+
+		/* Mobile */
+		$('#menu-wrap').prepend('<div id="menu-trigger"><img src="img/thr3folio_logo.png" alt="logo"></div>');		
+		$("#menu-trigger").on("click", function(){
+			$("#menu").slideToggle();
+		});
+
+		// iPad
+		var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		if (isiPad) $('#menu ul').addClass('no-transition');      
+    });          
+</script>
+	
+
+  
+</body>
+</html>

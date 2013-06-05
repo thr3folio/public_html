@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	   <link href='css/thr3folio_.css' media='screen' rel='stylesheet' type='text/css'>
-	   <link rel="stylesheet" href="css/candidate.css">
-	  <title>My JObs: Recruiter ID</title>
-	</head>
-
+<head>
+    <title>MyJobs: Clients</title>
+    <meta name="viewport" content="width=device-width" />
+    <link href='css/thr3folio_.css' media='screen' rel='stylesheet' type='text/css'>
+	 <link rel="stylesheet" href="css/candidate.css">
+	 <link href='http://fonts.googleapis.com/css?family=Open+Sans:600italic,400,700' rel='stylesheet' type='text/css'>
+    <link href='css/responsive_menu.css' media='screen' rel='stylesheet' type='text/css'>	
+</head>
 
 <body>
-<div class="container">
-	<div class="bar"> <img src="img/thr3folio_logo.png" alt="logo"> 
-		 <a href="thr3folio_proj1_img1_mobile.html"> <img src="img/menu_symbol.png" /></a> 
 
-		</div>
-	</div>
+<nav id="menu-wrap">  
 
-<nav>
-	  <ul>
-	  	<li> <img src="img/thr3folio_logo.png" alt="logo"> </li> 
-	  	<li> <a href="index.html">home</a> </li>
-	  	<li> <a href="Myjobs.html">my jobs</a>  </li>
-	  	<li> <a href="candidates.html">candidates</a>  </li>
-	  	<li> <a href="clients.html">clients</a>  </li>
-	  	<li> <a href="jobs.html">jobs</a> </li>
-	  	<li> <a href="about.html">about</a> </li>
-	  	<li> <a href="contact.html">contacts</a> </li>
-	  </ul>
-	<form action="#" method="#" class="main-nav-search">
-		<input type="text" name="search" placeholder="Search">
-	</form>
-	</nav>
-		<!--		<div class="span3">
-					<a class="main-profile-icon" href="#">Log Out</a>
-				</div> -->
+	<ul id="menu">
+		<li class="nav_logo"><img src="img/thr3folio_logo.png" alt="logo"> </li>
+		<li><a href="index.html">home</a></li>
+		<li><a href="mydaily_html">my daily</a></li>
+		<li><a href="myjobs_html.html">my jobs</a></li>
+		<li><a href="candidates.html">candidates</a></li>
+		<li><a href="clients.html">clients</a></li>
+		<li><a href="jobs.html">jobs</a></li>
+		<li><a href="about.html">about</a></li>
+		<li><a  href="contact.html">contacts</a></li>
+		<li><a  href="login.html">login</a></li>
+	<ul>
+				
+</nav>
 		
-		<div class="width=snapshot-side">
+		
+		<div class="list-container">
 				<div class="MyJobs-side-container">
 					<div class="MyJobs-box">
 						<img id="co_logo" src="http://www.builtinchicago.org/sites/default/files/company_logos/manifest.png">
@@ -77,7 +72,7 @@
 		<div class="JobDesc-container">
 				<div class="Job-header">
 					<p style="font-size:20px"> Director of User Experience	 <a href="#">Src2015: | 3645AD</a>
-					<a href="candidates.html"><span>23 cands</span></p></a> 
+					<a href="candidates.html"><span>23 candidates</span></p></a> 
 				</div>
 
 		<div id="JobDesc"> 
@@ -85,7 +80,7 @@
 			<h3>User Experience | Chicago, IL, United States </h3>
 
 
-			<div class="bio_text2">	
+			<div class="job_text">	
 
 				<p>The Interaction Designer will be expected to:
 				Lead and facilitate design workshops and decision-making in partnership with creative, content and technology disciplines </p>
@@ -100,8 +95,8 @@
 				<p>Solid background with the web and web technologies</p>
 				<p>Knowledge of leading interaction design trends and patterns </p>
 				<p>Excellent visual/verbal communicator with a demonstrated strong creative vision for organizing interactive information systems </p>
-				<p>Comfortable with prototyping software, preferably Axure
-				<p>Extremely detail-oriented, flexible and able to work in a fast-paced, demanding environment with </p>aggressive development schedules</p>
+				<p>Comfortable with prototyping software, preferably Axure</p>
+				<p>Extremely detail-oriented, flexible and able to work in a fast-paced, demanding environment with aggressive development schedules</p>
 				<p>Familiarity with conducting or overseeing usability sessions, task analysis, heuristic evaluation, rapid prototyping and persona development</p>
 				<p>Ability to travel up to 25-40% within the Chicagoland and Milwaukee area Bachelor's degree in Computer Science, Information Systems or HCI (or equivalent work experience)
 				Consulting background preferred </p>
@@ -123,5 +118,29 @@
 		</div>
 				
 	</div>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript">
+    $(function() {
+		if ($.browser.msie && $.browser.version.substr(0,1)<7)
+		{
+		$('li').has('ul').mouseover(function(){
+			$(this).children('ul').css('visibility','visible');
+			}).mouseout(function(){
+			$(this).children('ul').css('visibility','hidden');
+			})
+		}
+
+		/* Mobile */
+		$('#menu-wrap').prepend('<div id="menu-trigger"><img src="img/thr3folio_logo.png" alt="logo"></div>');		
+		$("#menu-trigger").on("click", function(){
+			$("#menu").slideToggle();
+		});
+
+		// iPad
+		var isiPad = navigator.userAgent.match(/iPad/i) != null;
+		if (isiPad) $('#menu ul').addClass('no-transition');      
+    });          
+</script>
 </body>
 </html>

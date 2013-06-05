@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Arbutus+Slab);
-@import url(http://fonts.googleapis.com/css?family=Coda+Caption);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
@@ -31,7 +31,7 @@
 }
 .co_header {
 	float:left;
-	font-family: 'Coda Caption', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	display:inline-block;
 	font-size: 15px;
 	text-align:center;
@@ -64,8 +64,8 @@ font-weight: bolder;
 
 .list-container {
 	margin:0 auto;
-	width: 80%;
-	font-family: 'Coda Caption', sans-serif;
+	width: 90%;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none; 
 	/*float: left;*/
 }
@@ -121,10 +121,7 @@ a#links:hover{
   -o-border-radius: 4px;
 }
 
-/*#remove-button{
-	position:absolute;
-	left:700px;
-}*/
+
 /* -------------------------------------
 /* MyJobs.html Styles
 /* ------------------------------------*/
@@ -138,7 +135,7 @@ a#links:hover{
 }
 
 .MyJobs-box{
-	width: 370px;
+	width: 320px;
 	height: 50px;
 	margin-bottom: 5px;
 	background: #fff;
@@ -177,7 +174,7 @@ a#links:hover{
 .Job-header{
 	border: 1px solid #ccc;
 	border-radius: 6px;
-	font-family: 'Coda Caption', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-decoration: none; 
 	background: #fff;
 }
@@ -203,7 +200,19 @@ a#links:hover{
 	overflow: scroll;
 	padding:5px; 
 }
+.job_text p{
+clear: both;
+width: 90%;
+display: inline-block;
+padding-right: -10px;
+text-align: left;
+margin:7px 3px;
+}
 
+#JobDesc h3{
+ margin:10px 0px;
+ float:none;
+}
 .edit-container {
 	float:left;
 	border:none;
@@ -223,7 +232,7 @@ a#links:hover{
 	text-align: center;
 	padding:5px;
 	font-size: 14px;
-	font-family: 'Coda Caption', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
  /* -------------------------------------
