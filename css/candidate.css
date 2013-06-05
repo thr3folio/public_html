@@ -1,0 +1,278 @@
+@import url(http://fonts.googleapis.com/css?family=Arbutus+Slab);
+@import url(http://fonts.googleapis.com/css?family=Coda+Caption);
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+
+/* -------------------------------------
+/* Candidate.html Styles
+/* ------------------------------------*/
+
+.main-nav-search {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.main-nav-search input {
+	background: #f1f1f1;
+	border: 1px solid #222;
+	padding: 3px 5px;
+}
+
+.main-nav-search input:focus {
+	background: #fff;
+	border-color: red;
+	outline: none;
+}
+.co_header {
+	float:left;
+	font-family: 'Coda Caption', sans-serif;
+	display:inline-block;
+	font-size: 15px;
+	text-align:center;
+	padding-bottom:10px;
+	margin-top:20px;
+	z-index: 100;
+	width: 100%;
+
+}
+
+.co_header a {
+	margin-right: 20px;
+	text-decoration: none;
+	float:left;
+}
+
+.co_header a:hover {
+	background-color: #f1f1f1;
+	border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+ 
+}
+
+#job-title{
+font-weight: bolder;
+
+}
+
+.list-container {
+	margin:0 auto;
+	width: 80%;
+	font-family: 'Coda Caption', sans-serif;
+	text-decoration: none; 
+	/*float: left;*/
+}
+.list-container h4{
+	text-decoration: none;
+	float: left;
+
+}
+
+/*.candidate-pic{
+	float:left;
+	width:40px;
+	height:40px;
+	margin: 5px; 
+} */
+
+.Candidate-List {
+	/*float:left;*/ 
+	display: inline-block;
+	border:none;
+	margin-right: 5px;
+	margin-top: 5px;
+	height: 44px;
+	box-sizing: border-box;
+	width: 90%;
+	background-color: white;
+	border: 1px solid #c7d5f9;
+	border-radius: 6px;
+}
+#links{
+	width:125px;
+	float:left;
+	text-align:left; 
+}
+
+.Candidate-List a{
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 15px;
+	/*margin-top: 20px;*/
+	text-align: left;
+	padding:14px;
+	float: left;
+	width: 125px;
+	border-right: 1px solid #ccc;
+}
+a#links:hover{
+	background-color: #f9f9f9;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/*#remove-button{
+	position:absolute;
+	left:700px;
+}*/
+/* -------------------------------------
+/* MyJobs.html Styles
+/* ------------------------------------*/
+.MyJobs-side-container {
+	float:left;
+	padding: 10px;
+	background: #eff0f1;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin-left: 20px;
+	z-index: 1px;
+}
+
+.MyJobs-box{
+	width: 370px;
+	height: 50px;
+	margin-bottom: 5px;
+	background: #fff;
+	border: 1px solid #111;
+}
+
+.MyJobs-box:hover {
+	background-color: #E0FFFF;
+}
+
+#co_logo{
+	float:left;
+	width:50px;
+	height:50px;
+}
+
+.MyJobs-block {
+	display:inline-block;
+	margin-left: 10px;
+}
+.MyJobs-block a{
+	text-decoration: none;
+	font-size: 11px;
+	font-family: "Helvetica"
+}
+.JobDesc-container{
+	float:left;
+	height: 600px;
+	width:55%;
+	min-width: 300px;
+	z-index: 1px;
+	border-radius: 6px;
+	margin-left: 20px;
+	}
+
+.Job-header{
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-family: 'Coda Caption', sans-serif;
+	text-decoration: none; 
+	background: #fff;
+}
+
+.Job-header span{
+	float:right;
+	color:red;
+	margin-right: 10px;
+}
+
+
+#JobDesc{
+	clear: both;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+	width:98%;
+	display: inline-block;
+	font-size: 11px;
+	font-family: "Helvetica";
+	height: 440px;
+	border-radius: 6px;
+	background: #fff;
+	overflow: scroll;
+	padding:5px; 
+}
+
+.edit-container {
+	float:left;
+	border:none;
+	border:1px solid #ccc;
+	margin-top: 20px;
+	border-radius: 6px;
+	min-width: 300px;
+	width:99%;
+	background: #fff;
+}
+
+.edit-menu a{
+	float:right;
+	display: inline;
+	text-decoration: none;
+	margin: 10px;
+	text-align: center;
+	padding:5px;
+	font-size: 14px;
+	font-family: 'Coda Caption', sans-serif;
+}
+
+ /* -------------------------------------
+/* Clients.html Styles
+/* ------------------------------------*/
+.client-box{
+	margin-top:30px;
+	width:100px;
+	height:100px;
+	border-radius: 6px;
+	background-color: white;
+	border: 1px solid #c7d5f9;
+	overflow:hidden;
+}
+
+/*-------------------------------------
+/* About.html Styles
+/* ------------------------------------*/
+.About{
+background-color: #fff;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+     -o-border-radius: 6px;
+        border-radius: 6px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+     -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.1);
+color: black;
+font: bold 12px/30px "Droid Sans", Arial, "Helvetica Neue", "Lucida Grande", sans-serif;
+margin-right: .0%; /*10px x1260*/
+ margin-top: 0%; /*10px x1260*/
+margin-left: 1.5%; /*20px x1260*/
+height: 650px;
+text-align: left;
+text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.15); 
+/*   text-transform: uppercase;*/
+} 
+
+.About{
+  float: left;
+  width: 30%; /*150*660px*/
+  height: 600px;
+  text-align: left;
+  padding-right:10px;
+
+}
+
+
+
+
+
