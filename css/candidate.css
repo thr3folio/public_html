@@ -72,6 +72,7 @@ font-weight: bolder;
 .list-container h4{
 	text-decoration: none;
 	float: left;
+	width:100%;
 
 }
 
@@ -82,7 +83,7 @@ font-weight: bolder;
 	margin: 5px; 
 } */
 
-.Candidate-List {
+.candidate-list {
 	/*float:left;*/ 
 	display: inline-block;
 	border:none;
@@ -95,13 +96,13 @@ font-weight: bolder;
 	border: 1px solid #c7d5f9;
 	border-radius: 6px;
 }
-#links{
+.links{
 	width:125px;
 	float:left;
 	text-align:left; 
 }
 
-.Candidate-List a{
+.candidate-list a{
 	display: inline-block;
 	text-decoration: none;
 	margin-right: 15px;
@@ -133,7 +134,6 @@ a#links:hover{
 	background: #eff0f1;
 	border: 1px solid #ccc;
 	border-radius: 6px;
-	margin-left: 20px;
 	z-index: 1px;
 }
 
@@ -229,16 +229,48 @@ a#links:hover{
  /* -------------------------------------
 /* Clients.html Styles
 /* ------------------------------------*/
-.client-box{
-	margin-top:30px;
-	width:100px;
-	height:100px;
-	border-radius: 6px;
-	background-color: white;
-	border: 1px solid #c7d5f9;
-	overflow:hidden;
+.client-row{
+	margin: 15px 15px 15px 0px;
 }
 
+.client-box{
+	display: inline-table;
+	text-decoration: none;
+	margin-top:50px;
+	height:150px;
+	border:none;
+	margin-right: 5px;
+	margin-top: 5px;
+	box-sizing: border-box;
+	width: 22%;
+	background-color: white;
+	border: 1px solid #c7d5f9;
+	border-radius: 6px;
+	overflow: auto;
+}
+
+ul.client-box
+{
+    list-style-type: none;
+    padding: 0;
+    margin-right:10px 0px 5px 5px;
+}
+.client-box li{	
+	margin: 5px;
+	text-align: left;
+	width: 90%;
+}
+client-box a:hover{
+	background-color: #f9f9f9;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.company{
+	font-weight: bold;
+	font-size: 14px;
+}
 /*-------------------------------------
 /* About.html Styles
 /* ------------------------------------*/
